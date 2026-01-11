@@ -518,7 +518,7 @@
                                 </div>
                                 <div>
                                     <h4 class="font-semibold">Location</h4>
-                                    <p class="text-gray-600">San Francisco, CA</p>
+                                    <p class="text-gray-600">Uzbekistan , Sergeli</p>
                                 </div>
                             </div>
                             
@@ -528,7 +528,7 @@
                                 </div>
                                 <div>
                                     <h4 class="font-semibold">Email</h4>
-                                    <p class="text-gray-600">hello@alexcarter.dev</p>
+                                    <p class="text-gray-600">xushvaqovnursulton4@gmail.com</p>
                                 </div>
                             </div>
                             
@@ -538,7 +538,7 @@
                                 </div>
                                 <div>
                                     <h4 class="font-semibold">Phone</h4>
-                                    <p class="text-gray-600">+1 (555) 123-4567</p>
+                                    <p class="text-gray-600">+998 90-788 1303</p>
                                 </div>
                             </div>
                             
@@ -548,7 +548,7 @@
                                 </div>
                                 <div>
                                     <h4 class="font-semibold">Working Hours</h4>
-                                    <p class="text-gray-600">Mon-Fri: 9am - 5pm</p>
+                                    <p class="text-gray-600">Mon-Fri: 9am - 3pm</p>
                                 </div>
                             </div>
                         </div>
@@ -556,17 +556,14 @@
                         <div class="mt-8">
                             <h4 class="font-semibold mb-4">Follow Me</h4>
                             <div class="flex space-x-4">
-                                <a href="#" class="bg-gray-200 p-3 rounded-full text-gray-700 hover:bg-indigo-600 hover:text-white transition duration-300">
+                                <a href="https://github.com/Nursulton-stack" class="bg-gray-200 p-3 rounded-full text-gray-700 hover:bg-indigo-600 hover:text-white transition duration-300">
                                     <i class="fab fa-github"></i>
                                 </a>
-                                <a href="#" class="bg-gray-200 p-3 rounded-full text-gray-700 hover:bg-indigo-600 hover:text-white transition duration-300">
-                                    <i class="fab fa-linkedin-in"></i>
+                                <a href="instagram://user?username=rinne_tachi" id="instaBtn" class="bg-gray-200 p-3 rounded-full text-gray-700 hover:bg-indigo-600 hover:text-white transition duration-300">
+                                    <i class="fab fa-instagram"></i>
                                 </a>
-                                <a href="#" class="bg-gray-200 p-3 rounded-full text-gray-700 hover:bg-indigo-600 hover:text-white transition duration-300">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#" class="bg-gray-200 p-3 rounded-full text-gray-700 hover:bg-indigo-600 hover:text-white transition duration-300">
-                                    <i class="fab fa-dribbble"></i>
+                                <a href="tg://resolve?domain=@Rinne_Tachi" id="tgBtn" class="bg-gray-200 p-3 rounded-full text-gray-700 hover:bg-indigo-600 hover:text-white transition duration-300">
+                                    <i class="fab fa-telegram"></i>
                                 </a>
                             </div>
                         </div>
@@ -581,7 +578,7 @@
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="mb-6 md:mb-0">
-                    <a href="#" class="text-xl font-bold text-white">Alex Carter</a>
+                    <a href="#" class="text-xl font-bold text-white">Xushvaqov Nursulton</a>
                     <p class="text-gray-400 mt-2">Creating digital experiences that matter.</p>
                 </div>
                 <div class="flex space-x-6">
@@ -600,7 +597,7 @@
                 </div>
             </div>
             <div class="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-                <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2023 Alex Carter. All rights reserved.</p>
+                <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2023 Nursulton Xushvaqov. All rights reserved.</p>
                 <div class="flex space-x-6">
                     <a href="#" class="text-gray-400 hover:text-white text-sm transition duration-300">Privacy Policy</a>
                     <a href="#" class="text-gray-400 hover:text-white text-sm transition duration-300">Terms of Service</a>
@@ -616,6 +613,17 @@
     </button>
 
     <script>
+        document.getElementById("tgBtn").addEventListener("click", () => {
+  window.location.href = "tg://resolve?domain=@Rinne_Tachi";
+});
+
+document.getElementById("instaBtn").addEventListener("click", () => {
+  window.location.href = "instagram://user?username=rinnne_tachi";
+  setTimeout(() => {
+    window.location.href = "https://www.instagram.com/rinne_tachi/";
+  }, 1500);
+});
+
         // Mobile menu toggle
         const menuBtn = document.getElementById('menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
